@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Kanban Board</h1>
+  <div id="board">
+    <div id="backlog" class="column">
+      <div class="column-name">Backlog</div>
+      <div class="task-container"></div>
+      <div class="add-item">
+        <div class="btn-container">
+          <span class="add-item-btn">+ Add Item</span>
+          <span class="save-item-btn">Save Item</span>
+        </div>
+        <textarea 
+          class="add-item-desc" 
+          placeholder="Enter task description..."
+        ></textarea>
+      </div>
+    </div>
+    <div id="inprogress" class="column">
+      <div class="column-name">In Progress</div>
+      <div class="task-container"></div>
+      <div class="add-item">
+        <div class="btn-container">
+          <span class="add-item-btn">+ Add Item</span>
+          <span class="save-item-btn">Save Item</span>
+        </div>
+        <textarea 
+          class="add-item-desc" 
+          placeholder="Enter task description..."
+        ></textarea>
+      </div>
+    </div>
+    <div id="testing" class="column">
+      <div class="column-name">Testing</div>
+      <div class="task-container"></div>
+      <div class="add-item">
+        <div class="btn-container">
+          <span class="add-item-btn">+ Add Item</span>
+          <span class="save-item-btn">Save Item</span>
+        </div>
+        <textarea 
+          class="add-item-desc" 
+          placeholder="Enter task description..."
+        ></textarea>
+      </div>
+    </div>
+    <div id="done" class="column">
+      <div class="column-name">Done</div>
+      <div class="task-container"></div>
+      <div class="add-item">
+        <div class="btn-container">
+          <span class="add-item-btn">+ Add Item</span>
+          <span class="save-item-btn">Save Item</span>
+        </div>
+        <textarea 
+          class="add-item-desc" 
+          placeholder="Enter task description..."
+        ></textarea>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
